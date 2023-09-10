@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="shortcut icon" href="./assets/imgs/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="menu">
+        <a href=""><img src="./assets/imgs/logo.svg" alt="logo imc" class="logo"></a>
+
+        <nav class="nav-menu">
+            <ul>
+                <li>
+                    <a href="#calcular">Calcular</a>
+                </li>
+                <li class="desktop-faq">
+                    <a href="#faq">Perguntas Frequentes</a>
+                </li>
+                <li class="mobile-faq">
+                    <a href="#faq" >FAQ</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="calcular">
+            <h1>Calculadora de IMC</h1>
+            <p>Coloque os seus dados na calculadora e calcule o seu IMC:</p>
+            <form action="" class="formulario">
+                <h3>Sexo:</h3>
+                <input type="radio" name="sexo" id="m">
+                <label for="m">Masculino</label>
+                <input type="radio" name="sexo" id="f">
+                <label for="f">Feminino</label>
+                
+                <h3>Idade:</h3>
+                <input type="number" name="idade" id="idade" placeholder="Ex: 25" min="0"> 
+                <span>anos</span>
+                
+                <h3>Altura:</h3>
+                <input type="number" name="altura" id="altura" placeholder="Ex: 160" min="0">
+                <span>cm</span>
+
+                <h3>Peso:</h3>
+                <input type="number" name="peso" id="peso" placeholder="Ex: 60" min="0">
+                <span>Kg</span>
+
+                <br>
+
+                <input type="button" value="Calcular" onclick="calcularImc()">
+            </form>
+
+            <section id="resultado"></section>
+        </section>
+        <section id="faq">
+            <details closed>
+                <summary>
+                    O que é IMC?
+                </summary>
+                <p>O IMC é a sigla para Índice de Massa Corporal, na qual consiste de uma medida internacional usada para calcular se uma pessoa está no peso ideal para a sua altura.</p>
+            </details>
+            
+            <details closed>
+                <summary>
+                    Como se calcula o IMC?
+                </summary>
+                <p>Resposta.</p>
+            </details>
+            
+            <details closed>
+                <summary>
+                    O IMC é a melhor forma de avaliar o peso?
+                </summary>
+                <p>Resposta.</p>
+            </details>
+           
+            <details closed>
+                <summary>
+                    O que quer dizer sobrepeso?
+                </summary>
+                <p>Resposta.</p>
+            </details>
+           
+            <details closed>
+                <summary>
+                    Existe outras maneiras de avaliar a gordura corporal?
+                </summary>
+                <p>Resposta.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contato">
+            <a href="https://codepen.io/alissonleo22" target="_blank"><img class="social-media" src="./assets/imgs/codepen-logo.svg" alt="logo CodePen"></a>
+            <a href="https://github.com/alissonlss" target="_blank"><img class="social-media" src="./assets/imgs/github-logo.svg" alt="logo GitHub"></a>
+        </div>
+        <p>© 2023 - Developed by ALSS</p>
+    </footer>
+</body>
+</html>
