@@ -31,21 +31,21 @@
             <h1>Calculadora de IMC</h1>
             <p>Coloque os seus dados na calculadora e calcule o seu IMC:</p>
             <form action="" class="formulario">
-                <h3>Sexo:</h3>
+                <h2>Sexo:</h2>
                 <input type="radio" name="sexo" id="m">
                 <label for="m">Masculino</label>
                 <input type="radio" name="sexo" id="f">
                 <label for="f">Feminino</label>
                 
-                <h3>Idade:</h3>
+                <h2>Idade:</h2>
                 <input type="number" name="idade" id="idade" placeholder="Ex: 25" min="0"> 
                 <span>anos</span>
                 
-                <h3>Altura:</h3>
+                <h2>Altura:</h2>
                 <input type="number" name="altura" id="altura" placeholder="Ex: 160" min="0">
                 <span>cm</span>
 
-                <h3>Peso:</h3>
+                <h2>Peso:</h2>
                 <input type="number" name="peso" id="peso" placeholder="Ex: 60" min="0">
                 <span>Kg</span>
 
@@ -68,28 +68,45 @@
                 <summary>
                     Como se calcula o IMC?
                 </summary>
-                <p>Resposta.</p>
+                <p>O cálculo é feito da seguinte forma: 
+                    <math>
+                        <mi>IMC</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mi>Peso</mi>
+                            <mrow>
+                                <msup>
+                                    <mi>Altura</mi>
+                                    <mn>2</mn>
+                                </msup>
+                            </mrow>
+                        </mfrac>
+                  </math>
+                  <br>
+                  Onde o peso é dado em quilogramas (kg) e a altura em metros (m). 
+                </p>
             </details>
             
             <details closed>
                 <summary>
                     O IMC é a melhor forma de avaliar o peso?
                 </summary>
-                <p>Resposta.</p>
+                <p>Embora o IMC seja uma  ferramenta simples, amplamente usada e útil em muitos casos, ele não é necessariamente a melhor forma de avaliar a saúde ou a composição corporal de uma pessoa por conta própria. Pois, é importante levar em consideração outros fatores, como composição corporal, distribuição de gordura, níveis de atividade física e saúde metabólica. Dessa forma, é aconselhável consultar um profissional de saúde para uma avaliação mais abrangente. </p>
             </details>
            
             <details closed>
                 <summary>
                     O que quer dizer sobrepeso?
                 </summary>
-                <p>Resposta.</p>
+                <p>Dizemos que uma pessoa possui sobrepeso, quando ela pesa mais do que o que é considerado saudável ou normal para a sua idade, sexo ou tamanho. Em caso de preocupação em relação a sua saúde, é aconselhável consultar um profissional de saúde para orientação e aconselhamento adequados.</p>
             </details>
            
             <details closed>
                 <summary>
                     Existe outras maneiras de avaliar a gordura corporal?
                 </summary>
-                <p>Resposta.</p>
+                <p>Sim, existem várias maneiras de avaliar a gordura corporal além da medição tradicional do Índice de Massa Corporal (IMC). Alguns dos métodos comuns de avaliação da gordura corporal incluem:
+                medição de dobras cutâneas, bioimpedância elétrica (BIA), tomografia computadorizada (CT),ressonância magnética (MRI), densitometria por absorção de raios-X (DXA), impedância de onda acústica (AIA), pregas cutâneas e circunferência da cintura. Vale ressaltar que nenhum método de avaliação da gordura corporal é completamente preciso, e cada um pode ter suas limitações. A escolha do método depende dos seus objetivos e recursos disponíveis. Em caso de preocupação em relação a sua saúde, é aconselhável consultar um profissional de saúde para orientação e aconselhamento adequados.</p>
             </details>
         </section>
     </main>
