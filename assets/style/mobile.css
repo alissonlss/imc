@@ -1,0 +1,33 @@
+
+@media (max-width: 450px) {
+    #calcular h1{
+        font-size: 26px;
+    }
+    #calcular p, #faq p{
+        font-size: 14px;
+    }
+    #calcular h2, #faq{
+        font-size: 18px;
+    }
+    .formulario{
+        width: 75vw;
+    }
+    .formulario > input[type=button]{
+        font-size: 16px;
+    }
+    .desktop-faq{
+        display: none;
+    }
+    .mobile-faq{
+        display: contents;
+    }
+}
+
+@media (min-width: 450px) {
+    .desktop-faq{
+        display: contents;
+    }
+    .mobile-faq{
+        display: none;
+    }
+}

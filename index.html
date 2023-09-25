@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC</title>
     <link rel="shortcut icon" href="./assets/imgs/icon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/calculadora.css">
+    <link rel="stylesheet" href="./assets/style/mobile.css">
 </head>
 <body>
     <header class="menu">
@@ -31,25 +33,25 @@
             <h1>Calculadora de IMC</h1>
             <p>Coloque os seus dados na calculadora e calcule o seu IMC:</p>
             <form action="" class="formulario">
-                <h2>Sexo:</h2>
-                <input type="radio" name="sexo" id="m">
-                <label for="m">Masculino</label>
-                <input type="radio" name="sexo" id="f">
-                <label for="f">Feminino</label>
-                
-                <h2>Idade:</h2>
-                <input type="number" name="idade" id="idade" placeholder="Ex: 25" min="0"> 
-                <span>anos</span>
-                
-                <h2>Altura:</h2>
-                <input type="number" name="altura" id="altura" placeholder="Ex: 160" min="0">
-                <span>cm</span>
+                <div>
+                    <h2>Sexo:</h2>
+                    <input type="radio" name="sexo" id="m">
+                    <label for="m">Masculino</label>
+                    <input type="radio" name="sexo" id="f">
+                    <label for="f">Feminino</label>
+                    
+                    <h2>Idade:</h2>
+                    <input type="number" name="idade" id="idade" placeholder="Ex: 25" min="0"> 
+                    <span>anos</span>
+                    
+                    <h2>Altura:</h2>
+                    <input type="number" name="altura" id="altura" placeholder="Ex: 160" min="0">
+                    <span>cm</span>
 
-                <h2>Peso:</h2>
-                <input type="number" name="peso" id="peso" placeholder="Ex: 60" min="0">
-                <span>Kg</span>
-
-                <br>
+                    <h2>Peso:</h2>
+                    <input type="number" name="peso" id="peso" placeholder="Ex: 60" min="0">
+                    <span>Kg</span>
+                </div>
 
                 <input type="button" value="Calcular" onclick="calcularImc()">
             </form>

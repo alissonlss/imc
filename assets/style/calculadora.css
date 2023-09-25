@@ -1,0 +1,68 @@
+#calcular{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#calcular h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#calcular p{
+    margin: -16px 0 30px 0;
+    font-size: 18px;
+}
+
+.formulario{
+    width: 50vw;
+    border: 2px solid var(--color-destaque);
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario h2{
+    margin-bottom: 17px;
+    font-size: 24px;
+}
+
+.formulario > div > input{    
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 20px;
+    padding: 6px;
+}
+
+.formulario > div > input[type=radio]{
+    accent-color: var(--color-destaque);
+}
+
+.formulario > div > input[type=number]{
+    width: 116px;
+}
+
+.formulario > div > input[type=number]:focus{
+    border: none;
+    outline: 2px solid var(--color-destaque);
+}
+
+.formulario > input[type=button]{
+    font-size: 20px;
+    margin: 46px 0;
+    padding: 5px 30px;
+    font-family: var(--fonte-pag);
+    font-weight: 600;
+    background-color: var(--bg-button);
+    border: 2px solid var(--color-destaque);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.formulario > input[type=button]:hover{
+    background-color: var(--bg-button-hover);
+}

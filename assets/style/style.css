@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+:root{
+    margin: 0;
+    padding: 0;
+    --header-verde: #BAE183;
+    --bg-fac-azul: #CCE4EE;
+    --color-rodape: #83BAE1;
+    --bg-pagina: #f2f2f2;
+    --bg-button: #ffe4c4;
+    --bg-button-hover: #fcbca5;
+    --color-destaque: #f76731;
+    --fonte-menu: 'Oswald', sans-serif;
+    --fonte-pag: Comic Neue, Comic Sans, cursive;
+}
+
+html{
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-pag);
+    color: black;
+    background-color: var(--bg-pagina);
+}
+
+.menu{
+    background-color: var(--header-verde);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .logo{
+    width: 50px;
+    padding-left: 20px;
+}
+
+.nav-menu{
+    padding: 16px 20px;
+}
+
+.nav-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--fonte-menu);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+
+.nav-menu a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu a:hover{
+    text-decoration: overline var(--color-destaque);
+}
+
+main{
+    flex: 1;
+    padding: 10px;
+}
+
+#faq{
+    margin: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#faq p{
+    padding: 20px;
+    font-size: 16px;
+    background-color: var(--bg-fac-azul);
+    border-radius: 10px;
+    cursor: auto;
+    margin-top: 0;
+}
+
+footer{
+    padding: 20px;
+    background-color: var(--color-rodape);
+    text-align: center;
+    font-family: var(--fonte-menu);
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media{
+    width: 25px;
+}
+
+.social-media:hover{
+    scale: 1.2;
+}
