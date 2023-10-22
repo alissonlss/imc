@@ -31,6 +31,12 @@ body{
     background-color: var(--bg-pagina);
 }
 
+noscript{
+    margin-top: 70px;
+    padding: 10px;
+    color: var(--color-destaque);
+}
+
 .menu{
     background-color: var(--header-verde);
     position: fixed;

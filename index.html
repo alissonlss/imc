@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/style/mobile.css">
 </head>
 <body>
+    <noscript>Você precisa habilitar o JavaScript no seu navegador para essa aplicação funcionar.</noscript>
     <header class="menu">
         <a href=""><img src="./assets/imgs/logo.svg" alt="logo imc" class="logo"></a>
 
@@ -32,12 +33,12 @@
         <section id="calcular">
             <h1>Calculadora de IMC</h1>
             <p>Coloque os seus dados na calculadora e calcule o seu IMC:</p>
-            <form action="" class="formulario">
+            <form action="" class="formulario" id="form">
                 <div>
                     <h2>Sexo:</h2>
-                    <input type="radio" name="sexo" id="m">
+                    <input type="radio" name="sexo" id="m" value="m">
                     <label for="m">Masculino</label>
-                    <input type="radio" name="sexo" id="f">
+                    <input type="radio" name="sexo" id="f" value="f">
                     <label for="f">Feminino</label>
                     
                     <h2>Idade:</h2>
@@ -120,5 +121,6 @@
         </div>
         <p>© 2023 - Developed by ALSS</p>
     </footer>
+    <script src="assets/script.js"></script>
 </body>
 </html>
