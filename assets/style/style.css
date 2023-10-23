@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500&display=swap');
 
 :root{
     margin: 0;
@@ -11,7 +12,7 @@
     --bg-button-hover: #fcbca5;
     --color-destaque: #f76731;
     --fonte-menu: 'Oswald', sans-serif;
-    --fonte-pag: Comic Neue, Comic Sans, cursive;
+    --fonte-pag: 'Roboto Condensed', sans-serif;
 }
 
 html{
