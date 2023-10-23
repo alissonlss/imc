@@ -45,7 +45,7 @@ function calcularImc(){
         }
     }
 
-    if (altura == "" || peso == "" || selecionado == false){
+    if (altura == "" || peso == "" || idade == "" || selecionado == false){
         window.alert("Por favor, preencha todos os campos para obter o resultado.")
     }else{
         const alturaM = parseInt(altura)/100

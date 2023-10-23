@@ -66,3 +66,11 @@
 .formulario > input[type=button]:hover{
     background-color: var(--bg-button-hover);
 }
+
+#resultado p {
+    margin-bottom: 16px;
+}
+
+.tag-imc {
+    color: var(--color-destaque);
+}
